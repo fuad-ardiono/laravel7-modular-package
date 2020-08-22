@@ -1,10 +1,10 @@
 <?php
 namespace App\Module\Package;
 
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\Controller as BaseController;
 use App\Module\Package\Contract as PackageService;
 
-class PackageController extends Controller
+class Controller extends BaseController
 {
 	private $package_service;
 

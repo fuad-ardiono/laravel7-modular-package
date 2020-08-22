@@ -2,6 +2,7 @@
 namespace App\Module\Package;
 
 use App\Model\Package;
+use App\Repository\PackageRepository;
 
 class Service implements Contract
 {
